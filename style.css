@@ -12,11 +12,19 @@ h1 {
    
 }
 
-@media (max-width: 768px) {
-    .menu {
-      flex-direction: column;
-    }
+@media (max-width: 599px) {
+  .meu-botao {
+    padding: 15px 30px;
+    font-size: 1.2rem;
   }
+}
+
+@media (min-width: 1201px) {
+  .meu-botao {
+    padding: 12px 25px;
+    font-size: 1.1rem;
+  }
+}
 
   button {
     background-color: rgb(255, 255, 255);
